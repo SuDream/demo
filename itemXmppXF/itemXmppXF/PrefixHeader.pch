@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  itemXmppXF
+//
+//  Created by Moon on 16/3/26.
+//  Copyright © 2016年 SuDream. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define IOS5_OR_LATER ([[[UIDevice currentDevice] systemVersion] compare:@"5.0"] != NSOrderedAscending)
+#define IOS7_OR_LATER ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending)
+
+#define AppID_VALUE @"524257da"//  //56f621e0
+#define TIMEOUT_VALUE @"20000"
+
+#endif /* PrefixHeader_pch */
